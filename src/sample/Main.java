@@ -10,16 +10,16 @@ import java.util.*;
 
 public class Main extends Application {
 
-    public int f()
+    public void f()
     {
         TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
 
-        return tm.size();
+        System.out.println( tm.size() );
     }
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("hello world");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
