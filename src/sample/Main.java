@@ -15,6 +15,7 @@ public class Main extends Application {
         TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
 
         System.out.println( tm.size() );
+        System.out.println( tm.size() + 1);
     }
     @Override
     public void start(Stage primaryStage) throws Exception{
